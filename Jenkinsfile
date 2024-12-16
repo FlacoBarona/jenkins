@@ -1,8 +1,8 @@
 pipeline{
     agent any
     environment{
-        CONTENEDOR = 'jenkins-Practica'
-        IMAGEN = 'mi-imagen-prueba2'
+        CONTENEDOR = 'mi-contenedor-prueba'
+        IMAGEN = 'mi-imagen-prueba'
     }
     stages{
         stage('Preparar Entorno Docker'){
